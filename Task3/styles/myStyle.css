@@ -1,0 +1,156 @@
+﻿body 
+{
+    direction:rtl;
+}
+html, body {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+div {
+    position:relative;
+     
+} 
+
+.container #self  {
+    position:absolute; 
+    right:550px;
+    margin-top:20px;
+    margin-right:8px;
+    width:260px; 
+    border-radius: 30px 30px;
+    
+}
+
+
+@keyframes Backcolor {
+    
+    0%   {background-color: #85E8CD;}
+    25%  {background-color: #DBC971;}
+    50%  {background-color: #BEB7DB;}
+    100% {background-color: #6FC499;}
+    
+
+}
+.container {
+    background-color:#6FC499;
+    animation-name: Backcolor;
+    animation-duration: 5s;
+  
+} 
+
+ .container h1{
+     padding-right:580px;
+     font-size:40pt; 
+     color:#362622;
+
+
+ }  
+ .container h2{
+     color:saddlebrown;
+      border:2px double purple;
+    border-radius:40px; 
+   
+    padding: 5px 30px;
+
+ } 
+.container .workedu {
+    padding-right: 320px;
+    overflow: hidden;
+    
+     
+
+} 
+
+
+div > ul {
+   
+    text-decoration: none;
+    list-style-type:none;
+    color:saddlebrown;
+    font-size: 20px;
+    line-height:25px;
+    padding-bottom: 200px;
+    display:inline-block;
+    animation-name: Backcolor;
+    animation-duration: 5s;
+}
+
+
+
+div > ul li:hover ul {
+
+    background-color:#8BAF84;
+    display: block;
+            
+}
+div > ul li ul {
+  position: absolute;
+  width: 150px;
+  padding: 10px 10px;
+  display: none;
+   border:4px solid purple; 
+   border-radius:10px 10px;
+  
+}
+div > ul li ul li { 
+   
+  display: block; 
+}
+
+
+.work {
+    float: right;
+    margin-right: 40px;
+    margin-bottom:100px;
+    width: 200px; 
+    
+    
+
+} 
+
+
+.edu {
+    float: left;
+    width: 100%;
+    
+    
+
+}
+
+.container .intercontact {
+
+    padding-right: 320px;
+    overflow: hidden;
+
+} 
+.inter {
+    float: right;
+    margin-right: 40px;
+    width: 200px;
+   
+
+} 
+
+.contact {
+
+    float: left;
+    width: 100%;
+    
+    
+
+} 
+.contact #phone {
+    height:44px;
+    width:40px;
+
+
+} 
+.contact #face {
+    height:40px;
+    width:44px;
+
+} 
+
