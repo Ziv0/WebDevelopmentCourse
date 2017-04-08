@@ -1,0 +1,123 @@
+﻿body 
+{
+    direction:rtl;
+    margin:0 auto;
+    width: 960px;
+    background-color:lightseagreen; 
+    animation-name:back; 
+    animation-duration:2S;
+} 
+@keyframes back {
+    0%   {background-color:darkseagreen;}
+    100% {background-color:lightseagreen;}
+
+
+}
+
+
+body h1 {
+    margin-right: 307px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-size:40px; 
+    color:maroon;
+
+}
+h1.hebrew {
+    margin-right: 450px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-size:40px; 
+    color:maroon;
+
+
+}
+body header nav ul li {
+    margin: 0 auto;
+
+    display:inline-block;
+    float:right;
+
+
+}
+body header {
+
+    margin-left:200px; 
+    width: 960px; 
+    margin-right:130px;
+}
+body header a {
+    margin-top:30px; 
+    margin-left:66px;
+    padding: 5px 5px;
+    list-style:none; 
+    text-decoration:none; 
+    color:saddlebrown; 
+    border-radius:5px 5px; 
+    border-color: purple;
+    font-size:25pt; 
+    font-weight:bold;
+
+} 
+body header a:hover {
+    background-color:darkcyan;
+   
+
+
+} 
+
+body header  a:active {
+    background-color:aquamarine;
+    
+}
+#container {
+
+    background-image:url('../images/WhatsApp Image 2017-01-04 at 18.11.51.jpeg');
+    margin-right:360px;
+    background-position-y:85px;
+    height:384px; 
+    width:216px;
+    background-repeat:no-repeat;
+
+} 
+.content {
+
+    margin-right:180px;
+}
+.content p {
+    color:saddlebrown; 
+    font-size:19pt;
+    margin-top:100px;
+    margin-bottom:30px;
+
+} 
+.content img {
+    width:700px; 
+    height:500px;
+
+
+}
+p#last {
+    color:saddlebrown;
+    font-size:22pt;
+    margin-top:100px; 
+    margin-bottom:0px;
+} 
+p#about {
+    font-size:19pt;
+    margin-top:10px;
+
+} 
+.info  {
+    background-color:lightseagreen;
+    animation-name:back; 
+    animation-duration:2S;
+}  
+
+    
+
+.info img {
+    width:48px; 
+    height:48px;
+
+}
