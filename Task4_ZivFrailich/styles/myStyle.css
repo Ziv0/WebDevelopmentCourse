@@ -1,0 +1,57 @@
+﻿body 
+{
+    direction:rtl;
+    margin: 0 auto; 
+    width: 960px;
+    background-color:lightblue; 
+    
+} 
+section,h1,h2,img,p {
+    margin-bottom:30px; 
+    margin-top:30px;
+
+}
+#openline {
+    font-size:25pt;
+
+} 
+
+#main {
+    width:960px;
+    height:300px;
+
+
+} 
+#impactline {
+    margin-top:3px;
+    margin-right:120px;
+    font-size: 60pt; 
+    font-stretch:extra-expanded;
+    color:midnightblue;
+
+} 
+#explain h2 {
+
+    font-size:24pt; 
+    color:midnightblue;
+}
+#explain p{
+    font-size:20pt;
+
+}
+#explain #impactline {
+    margin-right:265px;
+}
+label {
+    display:block; 
+    margin-top:15px;
+
+}
+#contact input[type=text],input[type=number],input[type=email] {
+    display:block; 
+    margin-top:15px;
+
+} 
+#contact input[type=submit] {
+    margin-top:15px;
+}
