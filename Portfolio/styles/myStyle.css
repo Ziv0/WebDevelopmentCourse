@@ -1,0 +1,149 @@
+body 
+{
+    direction:rtl;
+    margin:0 auto;
+    width: 960px;
+    background-color:darkcyan;
+    position:relative;
+}
+
+#home {
+direction:rtl;
+    margin:0 auto;
+    width: 960px;
+    background-color:cadetblue;
+
+}
+
+
+
+h1 {
+     font-size: 35pt; 
+     text-align:center;
+     color:firebrick;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin-top:20px; 
+     margin-bottom:10px;
+    
+}
+h2 {
+    font-size:24pt; 
+    text-align:center;
+    color:indigo;
+    margin-top:18px; 
+    margin-bottom:10px;
+
+}
+nav {
+    margin-right:150px;
+    
+      
+}
+
+
+header a {
+    transition-property: background, border-radius;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+  
+
+    display:block;
+    float:right;
+    background-color: #2f2f33;
+    color: white;
+    width: 170px;
+    height: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+header a:hover {
+    
+    background: mediumseagreen;
+    border-radius: 10%;
+    border: 2px solid black;
+
+} 
+header a:active {
+    background-color:fuchsia;
+
+} 
+
+#self {
+    margin-top:20px;
+    width:250px;
+
+}
+p {
+    display:block;
+    margin-top:10px; 
+    margin-bottom: 10px;
+
+}
+#me {
+    line-height:35px;
+    font-size:20pt;
+    display:inline-block;
+    text-align:center;
+    margin-right:230px;
+    height:100px; 
+    width:520px;
+}  
+
+#contact {
+    margin-top:50px;
+    margin-right:250px; 
+    font-size:18pt;
+}
+#contact img {
+     padding:30px 30px;
+     height:40px; 
+     width:40px;
+
+}  
+
+#tikshoret_open {
+    font-size:18pt;
+    margin-right:60px;
+    display:inline-block;
+    margin-top:10px; 
+    margin-bottom: 10px;
+
+}
+
+#tikshoret img, #idan img {
+    margin-right:300px;
+    height:300px;
+    width:300px;
+}
+#tikshoret img:after {
+    transform:scaleX(549px),scaleY(768px);
+    
+} 
+h3{
+    margin-top:10px; 
+    margin-bottom:10px;
+    font-size:15pt;
+
+} 
+#general {
+    font-size:15pt;
+
+}
+#sirton {
+    margin-right:160px;
+
+}
+#idan {
+    display:inline-block;
+} 
+
+#tmuna {
+    margin-right:170px;
+}
+#tmuna img {
+    margin-right:10px;
+    display:inline-block; 
+    height:300px; 
+    width:300px;
+}
